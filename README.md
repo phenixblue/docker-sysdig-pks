@@ -8,7 +8,7 @@ USE AT YOUR OWN RISK!
 
 ## Build Image
 
-This uses the existing sysdig/sysdig image, but manually loads the sysdig-probe kernel module for the specific kernel version of the underlying PKS node. 
+This uses the existing [sysdig/sysdig](https://hub.docker.com/r/sysdig/sysdig) image, but manually loads the sysdig-probe kernel module for the specific kernel version of the underlying PKS node. 
 
 ### Identifying the appropriate package
 
