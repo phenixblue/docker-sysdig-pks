@@ -39,7 +39,7 @@ Length: 674592 (659K) [binary/octet-stream]
 Saving to: ‘sysdig-probe-0.25-x86_64-4.15.0-42-generic-751ae282dd3b11ba9ea4d659a9e2ffc8.ko’
 ```
 
-- Edit the `Dockerfile` appropriately for the local copy of the kernel module
+- Edit the `Dockerfile` and `docker-entrypoint.sh` files appropriately for the local copy of the kernel module
 
 ### Run Build
 
