@@ -1,7 +1,7 @@
 # docker-sysdig-pks
 Docker Image for running Sysdig on PKS nodes
 
-This was a quick and dirty hack to get the [kubectl-capture](https://github.com/sysdiglabs/kubectl-capture) plugin from Sysdig working for PKS nodes running the Ubuntu 16.04 Xenial stemcell. I'm unlikely to keep this up to date, but the general principal should remain the same if you need to improvise on veriosning and such.
+This was a quick and dirty hack to get the [kubectl-capture](https://github.com/sysdiglabs/kubectl-capture) plugin from Sysdig working for PKS nodes running the Ubuntu 16.04 Xenial stemcell. I'm unlikely to keep this up to date, but the general principal should remain the same if you need to improvise on versioning and such.
 
 USE AT YOUR OWN RISK!
 
