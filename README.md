@@ -106,6 +106,21 @@ f6dabfe7c19d: Layer already exists
 
 - Edit plugin script to target the new image
 
+- Edit plugin script to target the new image and the BOSH/PKS specific docker.sock
+
+    **image**
+
+    ```
+    image: jmsearcy/sysdig-capture
+    ```
+
+    **docker.sock**
+
+    ```
+    - name: docker-socket
+          path: /var/vcap/sys/run/docker/docker.sock
+    ```
+
 - Deploy to your hearts content!
 
     ```bash
